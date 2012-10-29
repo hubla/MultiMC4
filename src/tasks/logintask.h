@@ -31,8 +31,8 @@ struct LoginResult
 				const wxString downloadTicket, 
 				const int64_t latestVersion,
 				bool loginFailed = false,
-				bool playOffline = false,
-				bool forceUpdate = false
+				bool playOffline = true,
+				bool forceUpdate = true
 			);
 	LoginResult(const LoginResult *result);
 
